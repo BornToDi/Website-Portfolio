@@ -20,7 +20,7 @@
         </p>
         <q-btn
           to="/service"
-          class="mx-3 px-16 py-5 text-lg hover:text-xl"
+          class="mx-3 px-16 py-5 text-xl"
           no-caps
           outline
           color="primary"
@@ -28,7 +28,7 @@
         />
         <q-btn
           to="/contact"
-          class="mx-3 px-16 py-5 text-lg hover:text-xl"
+          class="mx-3 px-16 py-5 text-xl"
           no-caps
           color="white"
           text-color="primary"
@@ -138,7 +138,7 @@
           </p>
           <q-btn
             to="/contact"
-            class="mx-3 px-16 py-5 text-lg hover:text-xl"
+            class="mx-3 px-16 py-5 text-lg"
             no-caps
             outline
             color="primary"
@@ -219,12 +219,11 @@ export default {
   components: { aboutUs, lastSection, Lightbox },
 };
 </script>
-<style>
+
+<style lang="scss">
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-</style>
-<style lang="scss">
 .lightBox {
   padding: 100px;
 }
